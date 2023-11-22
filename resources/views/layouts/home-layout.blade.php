@@ -49,7 +49,9 @@
             <a href="index.html" class="logo d-flex align-items-center">
                 <!-- Uncomment the line below if you also wish to use an image logo -->
                 <!-- <img src="{{ asset('assets/themes/assets') }}/img/logo.png" alt=""> -->
-                <h1>UpConstruction<span>.</span></h1>
+                <h1>
+                    <img src="{{ asset('img') }}/logo-trans.png" alt="">
+                </h1>
             </a>
 
             <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
@@ -94,7 +96,10 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-6 text-center">
-                        <h2 data-aos="fade-down">Welcome to <span>UpConstruction</span></h2>
+                        {{-- <h2 data-aos="fade-down">Welcome to <span>UpConstruction</span></h2> --}}
+                        <h2 data-aos="fade-down">
+                            <img src="{{ asset('img') }}/logo-trans.png" alt="">
+                        </h2>
                         <p data-aos="fade-up">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
                             exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
