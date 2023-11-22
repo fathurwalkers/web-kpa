@@ -3,15 +3,18 @@
 namespace Database\Seeders;
 
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+
 use Illuminate\Database\Seeder;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\Validator;
+use Illuminate\Support\Str;
+use Faker\Factory as Faker;
+use Illuminate\Support\Arr;
+use App\Models\Login;
 
 class DatabaseSeeder extends Seeder
 {
-    /**
-     * Seed the application's database.
-     *
-     * @return void
-     */
     public function run()
     {
         $faker = Faker::create('id_ID');
@@ -152,45 +155,5 @@ class DatabaseSeeder extends Seeder
             'created_at' => now(),
             'updated_at' => now()
         ]);
-
-        foreach ($anggaran as $ang) {
-            foreach ($deskripsi as $desk) {
-                $anggaran_tanggal = $faker->dateTimeBetween('-1 years');
-                switch ($ang->anggaran_tipe) {
-                    case 'PENERIMAAN':
-                        $randomDigit = $faker->numberBetween(5,9);
-                        $penerimaan = $faker->randomNumber($randomDigit);
-                        $pengeluaran = NULL;
-                        $data_anggaran = new Dataanggaran;
-                        $save_data_anggaran = $data_anggaran->create([
-                            'data_anggaran_deskripsi' => $desk,
-                            'data_anggaran_debet' => $penerimaan,
-                            'data_anggaran_kredit' => $pengeluaran,
-                            'data_anggaran_tanggal' => $anggaran_tanggal,
-                            'anggaran_id' => $ang->id,
-                            'created_at' => now(),
-                            'updated_at' => now()
-                        ]);
-                        $save_data_anggaran->save();
-                        break;
-                    case 'PENGELUARAN':
-                        $randomDigit = $faker->numberBetween(5,9);
-                        $pengeluaran = $faker->randomNumber($randomDigit);
-                        $penerimaan = NULL;
-                        $data_anggaran = new Dataanggaran;
-                        $save_data_anggaran = $data_anggaran->create([
-                            'data_anggaran_deskripsi' => $desk,
-                            'data_anggaran_debet' => $penerimaan,
-                            'data_anggaran_kredit' => $pengeluaran,
-                            'data_anggaran_tanggal' => $anggaran_tanggal,
-                            'anggaran_id' => $ang->id,
-                            'created_at' => now(),
-                            'updated_at' => now()
-                        ]);
-                        $save_data_anggaran->save();
-                        break;
-                }
-            }
-        }
     }
 }
