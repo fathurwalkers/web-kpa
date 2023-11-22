@@ -153,68 +153,6 @@ class DatabaseSeeder extends Seeder
             'updated_at' => now()
         ]);
 
-        Anggaran::create([
-            'anggaran_nama' => 'KAS RUKUN KEMATIAN DAN SOSIAL',
-            'anggaran_tipe' => 'PENERIMAAN',
-            'created_at' => now(),
-            'updated_at' => now()
-        ]);
-
-        Anggaran::create([
-            'anggaran_nama' => 'KAS RUKUN KEMATIAN DAN SOSIAL',
-            'anggaran_tipe' => 'PENGELUARAN',
-            'created_at' => now(),
-            'updated_at' => now()
-        ]);
-
-        Anggaran::create([
-            'anggaran_nama' => 'KAS PEMBANGUNAN LINGKUNGAN TAHUN 2021',
-            'anggaran_tipe' => 'PENERIMAAN',
-            'created_at' => now(),
-            'updated_at' => now()
-        ]);
-
-        Anggaran::create([
-            'anggaran_nama' => 'KAS PEMBANGUNAN LINGKUNGAN TAHUN 2021',
-            'anggaran_tipe' => 'PENGELUARAN',
-            'created_at' => now(),
-            'updated_at' => now()
-        ]);
-
-        Anggaran::create([
-            'anggaran_nama' => 'KAS HUT KEMERDEKAAN RI TAHUN 2021',
-            'anggaran_tipe' => 'PENERIMAAN',
-            'created_at' => now(),
-            'updated_at' => now()
-        ]);
-
-        Anggaran::create([
-            'anggaran_nama' => 'KAS HUT KEMERDEKAAN RI TAHUN 2021',
-            'anggaran_tipe' => 'PENGELUARAN',
-            'created_at' => now(),
-            'updated_at' => now()
-        ]);
-
-        $anggaran = Anggaran::all();
-
-        $deskripsi = [
-            'Saldo kas awal',
-            'Iuran bulan Januari',
-            'Iuran bulan Februari',
-            'Iuran bulan Maret',
-            'Iuran bulan April',
-            'Iuran bulan Mei',
-            'Iuran bulan Juni',
-            'Iuran bulan Juli',
-            'Iuran bulan Agustus',
-            'Iuran bulan September',
-            'Iuran bulan Oktober',
-            'Iuran bulan November',
-            'Iuran bulan Desember',
-            'Bantuan Sosial Warga yg Sakit',
-            'Bantuan Sosial Warga Kurang Mampu'
-        ];
-
         foreach ($anggaran as $ang) {
             foreach ($deskripsi as $desk) {
                 $anggaran_tanggal = $faker->dateTimeBetween('-1 years');
