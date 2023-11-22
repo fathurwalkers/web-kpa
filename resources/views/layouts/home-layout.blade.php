@@ -1037,7 +1037,7 @@
 
     <!-- ======= Footer ======= -->
     <footer id="footer" class="footer">
-
+        {{--
         <div class="footer-content position-relative">
             <div class="container">
                 <div class="row">
@@ -1110,7 +1110,7 @@
 
                 </div>
             </div>
-        </div>
+        </div> --}}
 
         <div class="footer-legal text-center position-relative">
             <div class="container">
