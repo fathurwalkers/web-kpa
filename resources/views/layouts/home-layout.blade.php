@@ -100,9 +100,13 @@
                         <h2 data-aos="fade-down">
                             <img src="{{ asset('img') }}/logo-trans.png" alt="">
                         </h2>
-                        <p data-aos="fade-up">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <p data-aos="fade-up">
+                            Selamat Datang. <br />
+                            PT. Kartika Prima Abadi (Ecoasphalt) merupakan perusahaan yang bergerak dalam bidang
+                            industri pengelolaan aspal yang sedang berkembang di Indonesia. <br />
+                            Kami selalu berupaya untuk memberikan mutu serta layanan terbaik dibidang konstruksi jalan
+                            raya.
+                        </p>
                         <a data-aos="fade-up" data-aos-delay="200" href="#get-started" class="btn-get-started">Get
                             Started</a>
                     </div>
@@ -152,74 +156,77 @@
     <main id="main">
 
         <!-- ======= Get Started Section ======= -->
-        <section id="get-started" class="get-started section-bg">
-            <div class="container">
+        <!-- ======= Alt Services Section ======= -->
+        <section id="alt-services" class="alt-services">
+            <div class="container" data-aos="fade-up">
 
-                <div class="row justify-content-between gy-4">
+                <div class="row justify-content-around gy-4">
+                    <div class="col-lg-6 img-bg"
+                        style="background-image: url({{ asset('assets') }}/bahan/PT.%20Kartika%20Prima%20Abadi/DJI_0306.jpg);"
+                        data-aos="zoom-in" data-aos-delay="100"></div>
 
-                    <div class="col-lg-6 d-flex align-items-center" data-aos="fade-up">
-                        <div class="content">
-                            <h3>Minus hic non reiciendis ea possimus at quia.</h3>
-                            <p>Rem id rerum. Debitis deserunt quidem delectus expedita ducimus dolor. Aut iusto ipsa.
-                                Eos ipsum nobis ipsa soluta itaque perspiciatis fuga ipsum perspiciatis. Eum amet fugiat
-                                totam nisi possimus ut delectus dicta.
-                            <p>Aliquam velit deserunt autem. Inventore et saepe. Tenetur suscipit eligendi labore culpa
-                                eos. Deserunt porro magni qui necessitatibus dolorem at animi cupiditate.</p>
-                        </div>
-                    </div>
+                    <div class="col-lg-5 d-flex flex-column justify-content-center">
+                        <h3>Tentang Ecoasphalt</h3>
+                        <p>
+                            Selamat Datang. <br />
+                            PT. Kartika Prima Abadi (Ecoasphalt) merupakan perusahaan yang bergerak dalam bidang
+                            industri pengelolaan aspal yang sedang berkembang di Indonesia. <br />
+                            Kami selalu berupaya untuk memberikan mutu serta layanan terbaik dibidang konstruksi jalan
+                            raya.
+                        </p>
 
-                    <div class="col-lg-5" data-aos="fade">
-                        <form action="forms/quote.php" method="post" class="php-email-form">
-                            <h3>Get a quote</h3>
-                            <p>Vel nobis odio laboriosam et hic voluptatem. Inventore vitae totam. Rerum repellendus
-                                enim linead sero park flows.</p>
-                            <div class="row gy-3">
-
-                                <div class="col-md-12">
-                                    <input type="text" name="name" class="form-control" placeholder="Name"
-                                        required>
-                                </div>
-
-                                <div class="col-md-12 ">
-                                    <input type="email" class="form-control" name="email" placeholder="Email"
-                                        required>
-                                </div>
-
-                                <div class="col-md-12">
-                                    <input type="text" class="form-control" name="phone" placeholder="Phone"
-                                        required>
-                                </div>
-
-                                <div class="col-md-12">
-                                    <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
-                                </div>
-
-                                <div class="col-md-12 text-center">
-                                    <div class="loading">Loading</div>
-                                    <div class="error-message"></div>
-                                    <div class="sent-message">Your quote request has been sent successfully. Thank you!
-                                    </div>
-
-                                    <button type="submit">Get a quote</button>
-                                </div>
-
+                        <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="100">
+                            <i class="bi bi-easel flex-shrink-0"></i>
+                            <div>
+                                <h4><a href="" class="stretched-link">Lorem Ipsum</a></h4>
+                                <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint
+                                    occaecati cupiditate non provident</p>
                             </div>
-                        </form>
-                    </div><!-- End Quote Form -->
+                        </div><!-- End Icon Box -->
 
+                        <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="200">
+                            <i class="bi bi-patch-check flex-shrink-0"></i>
+                            <div>
+                                <h4><a href="" class="stretched-link">Nemo Enim</a></h4>
+                                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+                                    voluptatum deleniti atque</p>
+                            </div>
+                        </div><!-- End Icon Box -->
+
+                        <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="300">
+                            <i class="bi bi-brightness-high flex-shrink-0"></i>
+                            <div>
+                                <h4><a href="" class="stretched-link">Dine Pad</a></h4>
+                                <p>Explicabo est voluptatum asperiores consequatur magnam. Et veritatis odit. Sunt aut
+                                    deserunt minus aut eligendi omnis</p>
+                            </div>
+                        </div><!-- End Icon Box -->
+
+                        <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="400">
+                            <i class="bi bi-brightness-high flex-shrink-0"></i>
+                            <div>
+                                <h4><a href="" class="stretched-link">Tride clov</a></h4>
+                                <p>Est voluptatem labore deleniti quis a delectus et. Saepe dolorem libero sit non
+                                    aspernatur odit amet. Et eligendi</p>
+                            </div>
+                        </div><!-- End Icon Box -->
+
+                    </div>
                 </div>
 
             </div>
-        </section><!-- End Get Started Section -->
+        </section><!-- End Alt Services Section -->
 
         <!-- ======= Constructions Section ======= -->
         <section id="constructions" class="constructions">
             <div class="container" data-aos="fade-up">
 
                 <div class="section-header">
-                    <h2>Constructions</h2>
-                    <p>Nulla dolorum nulla nesciunt rerum facere sed ut inventore quam porro nihil id ratione ea sunt
-                        quis dolorem dolore earum</p>
+                    <h2>Our Products</h2>
+                    <p>
+                        Produk yang dikelola Ecoasphalt adalah Produk Aspal asli Buton yang terkenal akan kermurnian
+                        tingkat Extraksi nya.
+                    </p>
                 </div>
 
                 <div class="row gy-4">
@@ -229,15 +236,18 @@
                             <div class="row">
                                 <div class="col-xl-5">
                                     <div class="card-bg"
-                                        style="background-image: url({{ asset('assets/themes/assets') }}/img/constructions-1.jpg);">
+                                        style="background-image: url({{ asset('assets') }}/bahan/PT.%20Kartika%20Prima%20Abadi/C9794T01.jpg);">
                                     </div>
                                 </div>
                                 <div class="col-xl-7 d-flex align-items-center">
                                     <div class="card-body">
-                                        <h4 class="card-title">Eligendi omnis sunt veritatis.</h4>
-                                        <p>Fuga in dolorum et iste et culpa. Commodi possimus nesciunt modi voluptatem
-                                            placeat deleniti adipisci. Cum delectus doloribus non veritatis. Officia
-                                            temporibus illo magnam. Dolor eos et.</p>
+                                        <h4 class="card-title">Aspal Buton Murni</h4>
+                                        <p>
+                                            Aspal buton adalah aspal alam yang terdapat di dalam tanah dan dapat
+                                            dikatakan sebagai mineral mentah, sehingga untuk pemanfaatannya harus diolah
+                                            telebih dahulu. Sedangkan aspal minyak adalah hasil turunan dari minyak
+                                            bumi.
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -249,15 +259,16 @@
                             <div class="row">
                                 <div class="col-xl-5">
                                     <div class="card-bg"
-                                        style="background-image: url({{ asset('assets/themes/assets') }}/img/constructions-2.jpg);">
+                                        style="background-image: url({{ asset('assets') }}/bahan/PT.%20Kartika%20Prima%20Abadi/DJI_0291.jpg);">
                                     </div>
                                 </div>
                                 <div class="col-xl-7 d-flex align-items-center">
                                     <div class="card-body">
-                                        <h4 class="card-title">Possimus ut sed velit assumenda</h4>
-                                        <p>Sunt deserunt maiores voluptatem autem est rerum perferendis rerum
-                                            blanditiis. Est laboriosam qui iste numquam laboriosam voluptatem
-                                            architecto. Est laudantium sunt at quas aut hic. Eum dignissimos.</p>
+                                        <h4 class="card-title">Dikelola dalam berbagai Proses</h4>
+                                        <p>
+                                            Ecoasphalt mengelola Aspal Buton Murni melalui Beberapa Proses, sehingga
+                                            aspal yang dihasilkan lebih dapat diekstraksi
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -269,15 +280,16 @@
                             <div class="row">
                                 <div class="col-xl-5">
                                     <div class="card-bg"
-                                        style="background-image: url({{ asset('assets/themes/assets') }}/img/constructions-3.jpg);">
+                                        style="background-image: url({{ asset('assets') }}/bahan/PT.%20Kartika%20Prima%20Abadi/C9829T01.jpg);">
                                     </div>
                                 </div>
                                 <div class="col-xl-7 d-flex align-items-center">
                                     <div class="card-body">
-                                        <h4 class="card-title">Error beatae dolor inventore aut</h4>
-                                        <p>Dicta porro nobis. Velit cum in. Nesciunt dignissimos enim molestiae facilis
-                                            numquam quae quaerat ipsam omnis. Neque debitis ipsum at architecto officia
-                                            laboriosam odit. Ut sunt temporibus nulla culpa.</p>
+                                        <h4 class="card-title">Menyediakan Produk Berbahan dasar Aspal</h4>
+                                        <p>
+                                            Ecoasphalt juga mengelola Produk lain yang dihasilkan dengan berbahan dasar
+                                            berupa Aspal Murni
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -289,15 +301,16 @@
                             <div class="row">
                                 <div class="col-xl-5">
                                     <div class="card-bg"
-                                        style="background-image: url({{ asset('assets/themes/assets') }}/img/constructions-4.jpg);">
+                                        style="background-image: url({{ asset('assets') }}/bahan/PT.%20Kartika%20Prima%20Abadi/DSC00439.jpg);">
                                     </div>
                                 </div>
                                 <div class="col-xl-7 d-flex align-items-center">
                                     <div class="card-body">
-                                        <h4 class="card-title">Expedita voluptas ut ut nesciunt</h4>
-                                        <p>Aut est quidem doloremque voluptatem magnam quis excepturi vero quia. Eum eos
-                                            doloremque architecto illo at beatae dolore. Fugiat suscipit et sint ratione
-                                            dolores. Aut aliquid ea dolores libero nobis.</p>
+                                        <h4 class="card-title">Ramah Lingkungan</h4>
+                                        <p>
+                                            Proses Pengelolaan yang bersih, semua hasil yang dikelola diproses dan
+                                            dibuang dengan bersih.
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -314,7 +327,7 @@
             <div class="container" data-aos="fade-up">
 
                 <div class="section-header">
-                    <h2>Services</h2>
+                    <h2>Keunggulan Produk</h2>
                     <p>Voluptatem quibusdam ut ullam perferendis repellat non ut consequuntur est eveniet deleniti
                         fignissimos eos quam</p>
                 </div>
@@ -403,62 +416,6 @@
 
             </div>
         </section><!-- End Services Section -->
-
-        <!-- ======= Alt Services Section ======= -->
-        <section id="alt-services" class="alt-services">
-            <div class="container" data-aos="fade-up">
-
-                <div class="row justify-content-around gy-4">
-                    <div class="col-lg-6 img-bg"
-                        style="background-image: url({{ asset('assets/themes/assets') }}/img/alt-services.jpg);"
-                        data-aos="zoom-in" data-aos-delay="100"></div>
-
-                    <div class="col-lg-5 d-flex flex-column justify-content-center">
-                        <h3>Enim quis est voluptatibus aliquid consequatur fugiat</h3>
-                        <p>Esse voluptas cumque vel exercitationem. Reiciendis est hic accusamus. Non ipsam et sed
-                            minima temporibus laudantium. Soluta voluptate sed facere corporis dolores excepturi</p>
-
-                        <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="100">
-                            <i class="bi bi-easel flex-shrink-0"></i>
-                            <div>
-                                <h4><a href="" class="stretched-link">Lorem Ipsum</a></h4>
-                                <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint
-                                    occaecati cupiditate non provident</p>
-                            </div>
-                        </div><!-- End Icon Box -->
-
-                        <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="200">
-                            <i class="bi bi-patch-check flex-shrink-0"></i>
-                            <div>
-                                <h4><a href="" class="stretched-link">Nemo Enim</a></h4>
-                                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
-                                    voluptatum deleniti atque</p>
-                            </div>
-                        </div><!-- End Icon Box -->
-
-                        <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="300">
-                            <i class="bi bi-brightness-high flex-shrink-0"></i>
-                            <div>
-                                <h4><a href="" class="stretched-link">Dine Pad</a></h4>
-                                <p>Explicabo est voluptatum asperiores consequatur magnam. Et veritatis odit. Sunt aut
-                                    deserunt minus aut eligendi omnis</p>
-                            </div>
-                        </div><!-- End Icon Box -->
-
-                        <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="400">
-                            <i class="bi bi-brightness-high flex-shrink-0"></i>
-                            <div>
-                                <h4><a href="" class="stretched-link">Tride clov</a></h4>
-                                <p>Est voluptatem labore deleniti quis a delectus et. Saepe dolorem libero sit non
-                                    aspernatur odit amet. Et eligendi</p>
-                            </div>
-                        </div><!-- End Icon Box -->
-
-                    </div>
-                </div>
-
-            </div>
-        </section><!-- End Alt Services Section -->
 
         <!-- ======= Features Section ======= -->
         <section id="features" class="features section-bg">
@@ -1134,7 +1091,7 @@
     <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i
             class="bi bi-arrow-up-short"></i></a>
 
-    <div id="preloader"></div>
+    {{-- <div id="preloader"></div> --}}
 
     <!-- Vendor JS Files -->
     <script src="{{ asset('assets/themes/assets') }}/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
