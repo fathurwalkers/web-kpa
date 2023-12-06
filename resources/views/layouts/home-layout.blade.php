@@ -31,6 +31,13 @@
     <!-- Template Main CSS File -->
     <link href="{{ asset('assets/themes/assets') }}/css/main.css" rel="stylesheet">
 
+    <style>
+        .img-cek {
+            width: 1024px !important;
+            height: 260px !important;
+        }
+    </style>
+
     <!-- =======================================================
   * Template Name: UpConstruction
   * Updated: Sep 18 2023 with Bootstrap v5.3.2
@@ -100,12 +107,10 @@
                         <h2 data-aos="fade-down">
                             <img src="{{ asset('img') }}/logo-trans.png" alt="">
                         </h2>
+                        <h3 style="color:white;">Selamat <span style="color:yellow;"> Datang. </span></h3>
                         <p data-aos="fade-up">
-                            Selamat Datang. <br />
                             PT. Kartika Prima Abadi (Ecoasphalt) merupakan perusahaan yang bergerak dalam bidang
                             industri pengelolaan aspal yang sedang berkembang di Indonesia. <br />
-                            Kami selalu berupaya untuk memberikan mutu serta layanan terbaik dibidang konstruksi jalan
-                            raya.
                         </p>
                         <a data-aos="fade-up" data-aos-delay="200" href="#get-started" class="btn-get-started">Get
                             Started</a>
@@ -168,11 +173,10 @@
                     <div class="col-lg-5 d-flex flex-column justify-content-center">
                         <h3>Tentang Ecoasphalt</h3>
                         <p>
-                            Selamat Datang. <br />
-                            PT. Kartika Prima Abadi (Ecoasphalt) merupakan perusahaan yang bergerak dalam bidang
-                            industri pengelolaan aspal yang sedang berkembang di Indonesia. <br />
-                            Kami selalu berupaya untuk memberikan mutu serta layanan terbaik dibidang konstruksi jalan
-                            raya.
+                            PT. Kartika Prima Abadi (Ecoasphalt) telah didirikan sejak Tahun 2015. Kami selalu berupaya
+                            untuk memberikan mutu serta layanan terbaik dibidang konstruksi
+                            jalan
+                            raya. okemi
                         </p>
 
                         <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="100">
@@ -570,7 +574,7 @@
             <div class="container" data-aos="fade-up">
 
                 <div class="section-header">
-                    <h2>Our Projects</h2>
+                    <h2>Our Customers</h2>
                     <p>Consequatur libero assumenda est voluptatem est quidem illum et officia imilique qui vel
                         architecto accusamus fugit aut qui distinctio</p>
                 </div>
@@ -580,205 +584,69 @@
 
                     <ul class="portfolio-flters" data-aos="fade-up" data-aos-delay="100">
                         <li data-filter="*" class="filter-active">All</li>
-                        <li data-filter=".filter-remodeling">Remodeling</li>
-                        <li data-filter=".filter-construction">Construction</li>
-                        <li data-filter=".filter-repairs">Repairs</li>
-                        <li data-filter=".filter-design">Design</li>
+                        <li data-filter=".filter-remodeling">PT. Kartika Prima Abadi</li>
+                        <li data-filter=".filter-construction">PT. Konawe Multi Usaha</li>
+                        <li data-filter=".filter-repairs">PT. Pyramida Raya Persada</li>
+                        <li data-filter=".filter-design">PT. Serayu Putra Persada</li>
+                        <li data-filter=".filter-proyek">Proyek Preservasi</li>
                     </ul><!-- End Projects Filters -->
 
                     <div class="row gy-4 portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
-                        <div class="col-lg-4 col-md-6 portfolio-item filter-remodeling">
-                            <div class="portfolio-content h-100">
-                                <img src="{{ asset('assets/themes/assets') }}/img/projects/remodeling-1.jpg"
-                                    class="img-fluid" alt="">
-                                <div class="portfolio-info">
-                                    <h4>Remodeling 1</h4>
-                                    <p>Lorem ipsum, dolor sit amet consectetur</p>
-                                    <a href="{{ asset('assets/themes/assets') }}/img/projects/remodeling-1.jpg"
-                                        title="Remodeling 1" data-gallery="portfolio-gallery-remodeling"
-                                        class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                                    <a href="project-details.html" title="More Details" class="details-link"><i
-                                            class="bi bi-link-45deg"></i></a>
+                        @php
+                            $array_kpa = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+                        @endphp
+                        @foreach ($array_kpa as $i)
+                            <div class="col-lg-4 col-md-6 portfolio-item filter-remodeling">
+                                <div class="portfolio-content h-100">
+                                    <img src="{{ asset('assets') }}/bahan/PT.%20Kartika%20Prima%20Abadi/{{ $i }}.jpg"
+                                        class="img-fluid img-cek" alt="">
+                                    <div class="portfolio-info">
+                                        <h4>PT. Kartika Prima Abadi {{ $i }}</h4>
+                                    </div>
                                 </div>
-                            </div>
-                        </div><!-- End Projects Item -->
+                            </div><!-- End Projects Item -->
 
-                        <div class="col-lg-4 col-md-6 portfolio-item filter-construction">
-                            <div class="portfolio-content h-100">
-                                <img src="{{ asset('assets/themes/assets') }}/img/projects/construction-1.jpg"
-                                    class="img-fluid" alt="">
-                                <div class="portfolio-info">
-                                    <h4>Construction 1</h4>
-                                    <p>Lorem ipsum, dolor sit amet consectetur</p>
-                                    <a href="{{ asset('assets/themes/assets') }}/img/projects/construction-1.jpg"
-                                        title="Construction 1" data-gallery="portfolio-gallery-construction"
-                                        class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                                    <a href="project-details.html" title="More Details" class="details-link"><i
-                                            class="bi bi-link-45deg"></i></a>
+                            <div class="col-lg-4 col-md-6 portfolio-item filter-construction">
+                                <div class="portfolio-content h-100">
+                                    <img src="{{ asset('assets') }}/bahan/PT.%20Konawe%20Multi%20Usaha/{{ $i }}.jpg"
+                                        class="img-fluid img-cek" alt="">
+                                    <div class="portfolio-info">
+                                        <h4>PT. Konawe Multi Usaha {{ $i }}</h4>
+                                    </div>
                                 </div>
-                            </div>
-                        </div><!-- End Projects Item -->
+                            </div><!-- End Projects Item -->
 
-                        <div class="col-lg-4 col-md-6 portfolio-item filter-repairs">
-                            <div class="portfolio-content h-100">
-                                <img src="{{ asset('assets/themes/assets') }}/img/projects/repairs-1.jpg"
-                                    class="img-fluid" alt="">
-                                <div class="portfolio-info">
-                                    <h4>Repairs 1</h4>
-                                    <p>Lorem ipsum, dolor sit amet consectetur</p>
-                                    <a href="{{ asset('assets/themes/assets') }}/img/projects/repairs-1.jpg"
-                                        title="Repairs 1" data-gallery="portfolio-gallery-repairs"
-                                        class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                                    <a href="project-details.html" title="More Details" class="details-link"><i
-                                            class="bi bi-link-45deg"></i></a>
+                            <div class="col-lg-4 col-md-6 portfolio-item filter-repairs">
+                                <div class="portfolio-content h-100">
+                                    <img src="{{ asset('assets') }}/bahan/PT.%20Pyramida%20Raya%20Persada/{{ $i }}.jpg"
+                                        class="img-fluid img-cek" alt="">
+                                    <div class="portfolio-info">
+                                        <h4>PT. Pyramida Raya Persada {{ $i }}</h4>
+                                    </div>
                                 </div>
-                            </div>
-                        </div><!-- End Projects Item -->
+                            </div><!-- End Projects Item -->
 
-                        <div class="col-lg-4 col-md-6 portfolio-item filter-design">
-                            <div class="portfolio-content h-100">
-                                <img src="{{ asset('assets/themes/assets') }}/img/projects/design-1.jpg"
-                                    class="img-fluid" alt="">
-                                <div class="portfolio-info">
-                                    <h4>Design 1</h4>
-                                    <p>Lorem ipsum, dolor sit amet consectetur</p>
-                                    <a href="{{ asset('assets/themes/assets') }}/img/projects/design-1.jpg"
-                                        title="Repairs 1" data-gallery="portfolio-gallery-book"
-                                        class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                                    <a href="project-details.html" title="More Details" class="details-link"><i
-                                            class="bi bi-link-45deg"></i></a>
+                            <div class="col-lg-4 col-md-6 portfolio-item filter-design">
+                                <div class="portfolio-content h-100">
+                                    <img src="{{ asset('assets') }}/bahan/PT.%20Serayu%20Putra%20Persada/{{ $i }}.jpeg"
+                                        class="img-fluid img-cek" alt="">
+                                    <div class="portfolio-info">
+                                        <h4>PT. Serayu Putra Persada {{ $i }}</h4>
+                                    </div>
                                 </div>
-                            </div>
-                        </div><!-- End Projects Item -->
+                            </div><!-- End Projects Item -->
 
-                        <div class="col-lg-4 col-md-6 portfolio-item filter-remodeling">
-                            <div class="portfolio-content h-100">
-                                <img src="{{ asset('assets/themes/assets') }}/img/projects/remodeling-2.jpg"
-                                    class="img-fluid" alt="">
-                                <div class="portfolio-info">
-                                    <h4>Remodeling 2</h4>
-                                    <p>Lorem ipsum, dolor sit amet consectetur</p>
-                                    <a href="{{ asset('assets/themes/assets') }}/img/projects/remodeling-2.jpg"
-                                        title="Remodeling 2" data-gallery="portfolio-gallery-remodeling"
-                                        class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                                    <a href="project-details.html" title="More Details" class="details-link"><i
-                                            class="bi bi-link-45deg"></i></a>
+                            <div class="col-lg-4 col-md-6 portfolio-item filter-proyek">
+                                <div class="portfolio-content h-100">
+                                    <img src="{{ asset('assets') }}/bahan/Proyek%20Preservasi%20Jalan%20Dalam%20Kota/{{ $i }}.jpeg"
+                                        class="img-fluid img-cek" alt="">
+                                    <div class="portfolio-info">
+                                        <h4>Proyek Preservasi {{ $i }}</h4>
+                                    </div>
                                 </div>
-                            </div>
-                        </div><!-- End Projects Item -->
-
-                        <div class="col-lg-4 col-md-6 portfolio-item filter-construction">
-                            <div class="portfolio-content h-100">
-                                <img src="{{ asset('assets/themes/assets') }}/img/projects/construction-2.jpg"
-                                    class="img-fluid" alt="">
-                                <div class="portfolio-info">
-                                    <h4>Construction 2</h4>
-                                    <p>Lorem ipsum, dolor sit amet consectetur</p>
-                                    <a href="{{ asset('assets/themes/assets') }}/img/projects/construction-2.jpg"
-                                        title="Construction 2" data-gallery="portfolio-gallery-construction"
-                                        class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                                    <a href="project-details.html" title="More Details" class="details-link"><i
-                                            class="bi bi-link-45deg"></i></a>
-                                </div>
-                            </div>
-                        </div><!-- End Projects Item -->
-
-                        <div class="col-lg-4 col-md-6 portfolio-item filter-repairs">
-                            <div class="portfolio-content h-100">
-                                <img src="{{ asset('assets/themes/assets') }}/img/projects/repairs-2.jpg"
-                                    class="img-fluid" alt="">
-                                <div class="portfolio-info">
-                                    <h4>Repairs 2</h4>
-                                    <p>Lorem ipsum, dolor sit amet consectetur</p>
-                                    <a href="{{ asset('assets/themes/assets') }}/img/projects/repairs-2.jpg"
-                                        title="Repairs 2" data-gallery="portfolio-gallery-repairs"
-                                        class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                                    <a href="project-details.html" title="More Details" class="details-link"><i
-                                            class="bi bi-link-45deg"></i></a>
-                                </div>
-                            </div>
-                        </div><!-- End Projects Item -->
-
-                        <div class="col-lg-4 col-md-6 portfolio-item filter-design">
-                            <div class="portfolio-content h-100">
-                                <img src="{{ asset('assets/themes/assets') }}/img/projects/design-2.jpg"
-                                    class="img-fluid" alt="">
-                                <div class="portfolio-info">
-                                    <h4>Design 2</h4>
-                                    <p>Lorem ipsum, dolor sit amet consectetur</p>
-                                    <a href="{{ asset('assets/themes/assets') }}/img/projects/design-2.jpg"
-                                        title="Repairs 2" data-gallery="portfolio-gallery-book"
-                                        class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                                    <a href="project-details.html" title="More Details" class="details-link"><i
-                                            class="bi bi-link-45deg"></i></a>
-                                </div>
-                            </div>
-                        </div><!-- End Projects Item -->
-
-                        <div class="col-lg-4 col-md-6 portfolio-item filter-remodeling">
-                            <div class="portfolio-content h-100">
-                                <img src="{{ asset('assets/themes/assets') }}/img/projects/remodeling-3.jpg"
-                                    class="img-fluid" alt="">
-                                <div class="portfolio-info">
-                                    <h4>Remodeling 3</h4>
-                                    <p>Lorem ipsum, dolor sit amet consectetur</p>
-                                    <a href="{{ asset('assets/themes/assets') }}/img/projects/remodeling-3.jpg"
-                                        title="Remodeling 3" data-gallery="portfolio-gallery-remodeling"
-                                        class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                                    <a href="project-details.html" title="More Details" class="details-link"><i
-                                            class="bi bi-link-45deg"></i></a>
-                                </div>
-                            </div>
-                        </div><!-- End Projects Item -->
-
-                        <div class="col-lg-4 col-md-6 portfolio-item filter-construction">
-                            <div class="portfolio-content h-100">
-                                <img src="{{ asset('assets/themes/assets') }}/img/projects/construction-3.jpg"
-                                    class="img-fluid" alt="">
-                                <div class="portfolio-info">
-                                    <h4>Construction 3</h4>
-                                    <p>Lorem ipsum, dolor sit amet consectetur</p>
-                                    <a href="{{ asset('assets/themes/assets') }}/img/projects/construction-3.jpg"
-                                        title="Construction 3" data-gallery="portfolio-gallery-construction"
-                                        class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                                    <a href="project-details.html" title="More Details" class="details-link"><i
-                                            class="bi bi-link-45deg"></i></a>
-                                </div>
-                            </div>
-                        </div><!-- End Projects Item -->
-
-                        <div class="col-lg-4 col-md-6 portfolio-item filter-repairs">
-                            <div class="portfolio-content h-100">
-                                <img src="{{ asset('assets/themes/assets') }}/img/projects/repairs-3.jpg"
-                                    class="img-fluid" alt="">
-                                <div class="portfolio-info">
-                                    <h4>Repairs 3</h4>
-                                    <p>Lorem ipsum, dolor sit amet consectetur</p>
-                                    <a href="{{ asset('assets/themes/assets') }}/img/projects/repairs-3.jpg"
-                                        title="Repairs 2" data-gallery="portfolio-gallery-repairs"
-                                        class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                                    <a href="project-details.html" title="More Details" class="details-link"><i
-                                            class="bi bi-link-45deg"></i></a>
-                                </div>
-                            </div>
-                        </div><!-- End Projects Item -->
-
-                        <div class="col-lg-4 col-md-6 portfolio-item filter-design">
-                            <div class="portfolio-content h-100">
-                                <img src="{{ asset('assets/themes/assets') }}/img/projects/design-3.jpg"
-                                    class="img-fluid" alt="">
-                                <div class="portfolio-info">
-                                    <h4>Design 3</h4>
-                                    <p>Lorem ipsum, dolor sit amet consectetur</p>
-                                    <a href="{{ asset('assets/themes/assets') }}/img/projects/design-3.jpg"
-                                        title="Repairs 3" data-gallery="portfolio-gallery-book"
-                                        class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                                    <a href="project-details.html" title="More Details" class="details-link"><i
-                                            class="bi bi-link-45deg"></i></a>
-                                </div>
-                            </div>
-                        </div><!-- End Projects Item -->
+                            </div><!-- End Projects Item -->
+                        @endforeach
 
                     </div><!-- End Projects Container -->
 
