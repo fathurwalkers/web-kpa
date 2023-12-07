@@ -36,6 +36,11 @@
             width: 1024px !important;
             height: 260px !important;
         }
+
+        .section-header {
+            text-align: center;
+            padding-bottom: 35px !important;
+        }
     </style>
 
     <!-- =======================================================
@@ -107,9 +112,9 @@
                         <h2 data-aos="fade-down">
                             <img src="{{ asset('img') }}/logo-trans.png" alt="">
                         </h2>
-                        <h3 style="color:white;">Selamat <span style="color:yellow;"> Datang. </span></h3>
+                        <h3 style="color:white;">Selamat <span style="color:yellow;"> Datang </span></h3>
                         <p data-aos="fade-up">
-                            PT. Kartika Prima Abadi (Ecoasphalt) merupakan perusahaan yang bergerak dalam bidang
+                            PT. Kartika Prima Abadi (Ecoasphalt) merupakan perusahaan yang bergerak di dalam bidang
                             industri pengelolaan aspal yang sedang berkembang di Indonesia. <br />
                         </p>
                         <a data-aos="fade-up" data-aos-delay="200" href="#get-started" class="btn-get-started">Get
@@ -175,43 +180,44 @@
                         <p>
                             PT. Kartika Prima Abadi (Ecoasphalt) telah didirikan sejak Tahun 2015. Kami selalu berupaya
                             untuk memberikan mutu serta layanan terbaik dibidang konstruksi
-                            jalan
-                            raya. okemi
+                            jalan raya.
                         </p>
 
                         <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="100">
                             <i class="bi bi-easel flex-shrink-0"></i>
                             <div>
-                                <h4><a href="" class="stretched-link">Lorem Ipsum</a></h4>
-                                <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint
-                                    occaecati cupiditate non provident</p>
+                                <h4><a href="" class="stretched-link">Visi</a></h4>
+                                <p>Menjadi perusahaan terdepan dalam produk olahan aspal buton demi mengembangkan
+                                    asbuton menjadi
+                                    sumber daya alam yang bernilai tinggi.
+                                </p>
                             </div>
                         </div><!-- End Icon Box -->
 
                         <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="200">
                             <i class="bi bi-patch-check flex-shrink-0"></i>
                             <div>
-                                <h4><a href="" class="stretched-link">Nemo Enim</a></h4>
-                                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
-                                    voluptatum deleniti atque</p>
+                                <h4><a href="" class="stretched-link">Misi</a></h4>
+                                <p>Menjaga & mempertahankan kualitas produk sesuai dengan spesifikasi yang sudah
+                                    ditetapkan. <br>
+                                    Menjalin kerjasama yang harmonis & profesional dengan seluruh pihak yang
+                                    bersangkutan.</p>
                             </div>
                         </div><!-- End Icon Box -->
 
                         <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="300">
-                            <i class="bi bi-brightness-high flex-shrink-0"></i>
+                            <i class="bi bi-clipboard2-check flex-shrink-0"></i>
                             <div>
-                                <h4><a href="" class="stretched-link">Dine Pad</a></h4>
-                                <p>Explicabo est voluptatum asperiores consequatur magnam. Et veritatis odit. Sunt aut
-                                    deserunt minus aut eligendi omnis</p>
+                                <h4><a href="" class="stretched-link">Klasifikasi Produk</a></h4>
+                                <p>Durable, Eco Friendly, Long Lasting, Easy Mixing</p>
                             </div>
                         </div><!-- End Icon Box -->
 
                         <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="400">
-                            <i class="bi bi-brightness-high flex-shrink-0"></i>
+                            <i class="bi bi-box-seam flex-shrink-0"></i>
                             <div>
-                                <h4><a href="" class="stretched-link">Tride clov</a></h4>
-                                <p>Est voluptatem labore deleniti quis a delectus et. Saepe dolorem libero sit non
-                                    aspernatur odit amet. Et eligendi</p>
+                                <h4><a href="" class="stretched-link">Product</a></h4>
+                                <p>PG-70 & PG-76</p>
                             </div>
                         </div><!-- End Icon Box -->
 
@@ -226,7 +232,7 @@
             <div class="container" data-aos="fade-up">
 
                 <div class="section-header">
-                    <h2>Our Products</h2>
+                    <h2>Products</h2>
                     <p>
                         Produk yang dikelola Ecoasphalt adalah Produk Aspal asli Buton yang terkenal akan kermurnian
                         tingkat Extraksi nya.
@@ -240,17 +246,18 @@
                             <div class="row">
                                 <div class="col-xl-5">
                                     <div class="card-bg"
-                                        style="background-image: url({{ asset('assets') }}/bahan/PT.%20Kartika%20Prima%20Abadi/C9794T01.jpg);">
+                                        style="background-image: url({{ asset('assets') }}/bahan/PT.%20Kartika%20Prima%20Abadi/C8999PA.JPG);">
                                     </div>
                                 </div>
                                 <div class="col-xl-7 d-flex align-items-center">
                                     <div class="card-body">
                                         <h4 class="card-title">Aspal Buton Murni</h4>
                                         <p>
-                                            Aspal buton adalah aspal alam yang terdapat di dalam tanah dan dapat
-                                            dikatakan sebagai mineral mentah, sehingga untuk pemanfaatannya harus diolah
-                                            telebih dahulu. Sedangkan aspal minyak adalah hasil turunan dari minyak
-                                            bumi.
+                                            Aspal buton mempunyai batuan yang berasal dari campuran antara bitumen
+                                            dengan mineral lain.
+                                            Produksi aspal buton dilakukan dalam berbagai bentuk pengolahan dan
+                                            diperoleh dengan mengekstraksi
+                                            agar resin dan fraksi ringan yang terkandung dapat diolah.
                                         </p>
                                     </div>
                                 </div>
@@ -271,7 +278,7 @@
                                         <h4 class="card-title">Dikelola dalam berbagai Proses</h4>
                                         <p>
                                             Ecoasphalt mengelola Aspal Buton Murni melalui Beberapa Proses, sehingga
-                                            aspal yang dihasilkan lebih dapat diekstraksi
+                                            aspal yang dihasilkan lebih dapat diekstraksi dan berkualitas baik.
                                         </p>
                                     </div>
                                 </div>
@@ -289,10 +296,10 @@
                                 </div>
                                 <div class="col-xl-7 d-flex align-items-center">
                                     <div class="card-body">
-                                        <h4 class="card-title">Menyediakan Produk Berbahan dasar Aspal</h4>
+                                        <h4 class="card-title">Uji Laboraturium</h4>
                                         <p>
-                                            Ecoasphalt juga mengelola Produk lain yang dihasilkan dengan berbahan dasar
-                                            berupa Aspal Murni
+                                            aspal sebelum didistribusikan akan di uji pada laboraturium yang sudah
+                                            tersertifikasi.
                                         </p>
                                     </div>
                                 </div>
@@ -312,8 +319,9 @@
                                     <div class="card-body">
                                         <h4 class="card-title">Ramah Lingkungan</h4>
                                         <p>
-                                            Proses Pengelolaan yang bersih, semua hasil yang dikelola diproses dan
-                                            dibuang dengan bersih.
+                                            Proses Pengelolaan yang bersih, semua hasil filtrasi yang dikelola akan
+                                            diproses dan
+                                            dibuang dalam kondisi bersih tanpa mencemari lingkungan.
                                         </p>
                                     </div>
                                 </div>
@@ -336,7 +344,33 @@
                         fignissimos eos quam</p>
                 </div>
 
-                <div class="row gy-4">
+                <div class="row d-flex justify-content-center mt-0 pt-0">
+
+                    <div class="col-sm-12 col-md-12 mx-auto d-flex justify-content-center">
+                        <h5>
+                            Pengujian PG-70
+                        </h5>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-12 mx-auto d-flex justify-content-center mb-2">
+                        <img class="img mx-auto d-flex justify-content-center"
+                            src="{{ asset('assets/bahan') }}/PT.%20Kartika%20Prima%20Abadi/pangko1.PNG"
+                            alt="" width="500px" style="width: 750px;">
+                    </div>
+
+                    <div class="col-sm-12 col-md-12 mx-auto d-flex justify-content-center mt-2">
+                        <h5>
+                            Pengujian PG-76
+                        </h5>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-12 mx-auto d-flex justify-content-center">
+                        <img class="img mx-auto d-flex justify-content-center"
+                            src="{{ asset('assets/bahan') }}/PT.%20Kartika%20Prima%20Abadi/pangko2.PNG"
+                            alt="" width="500px" style="width: 750px;">
+                    </div>
+
+                </div>
+
+                {{-- <div class="row gy-4">
 
                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
                         <div class="service-item  position-relative">
@@ -416,7 +450,7 @@
                         </div>
                     </div><!-- End Service Item -->
 
-                </div>
+                </div> --}}
 
             </div>
         </section><!-- End Services Section -->
@@ -429,24 +463,24 @@
 
                     <li class="nav-item col-3">
                         <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#tab-1">
-                            <h4>Modisit</h4>
+                            <h4>Aspal Alam</h4>
                         </a>
                     </li><!-- End tab nav item -->
 
                     <li class="nav-item col-3">
                         <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-2">
-                            <h4>Praesenti</h4>
+                            <h4>Stockpile</h4>
                         </a><!-- End tab nav item -->
 
                     <li class="nav-item col-3">
                         <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-3">
-                            <h4>Explica</h4>
+                            <h4>Proses</h4>
                         </a>
                     </li><!-- End tab nav item -->
 
                     <li class="nav-item col-3">
                         <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-4">
-                            <h4>Nostrum</h4>
+                            <h4>Uji Lab</h4>
                         </a>
                     </li><!-- End tab nav item -->
 
@@ -787,11 +821,11 @@
                             <i class="bi bi-map"></i>
                             <h3>Alamat</h3>
                             <p>
-                                Head Office : <br />
+                                <b>Head Office : </b><br />
                                 Soho Capital Lt.39 Unit 06, Jl.Let.Jend S.Parman KV 28, Grogol Petamburan, Jakarta Barat
                             </p>
                             <p>
-                                Site Office : <br />
+                                <b>Site Office : </b><br />
                                 Jl. Poros Kamaru, Desa Suandala, Dusun Adikila, Kecamatan Lasalimu, Kabupaten Buton
                             </p>
                         </div>
