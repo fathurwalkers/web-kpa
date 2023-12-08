@@ -181,7 +181,7 @@
                         <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="400">
                             <i class="bi bi-box-seam flex-shrink-0"></i>
                             <div>
-                                <h4><a href="" class="stretched-link">Product</a></h4>
+                                <h4><a href="" class="stretched-link">Produk</a></h4>
                                 <p>PG-70 & PG-76</p>
                             </div>
                         </div><!-- End Icon Box -->
@@ -197,7 +197,7 @@
             <div class="container" data-aos="fade-up">
 
                 <div class="section-header">
-                    <h2>Products</h2>
+                    <h2>Produk</h2>
                     <p>
                         Produk yang dikelola Ecoasphalt adalah Produk Aspal asli Buton yang terkenal akan kermurnian
                         tingkat Extraksi nya.
@@ -304,9 +304,8 @@
             <div class="container" data-aos="fade-up">
 
                 <div class="section-header">
-                    <h2>Keunggulan Produk</h2>
-                    <p>Voluptatem quibusdam ut ullam perferendis repellat non ut consequuntur est eveniet deleniti
-                        fignissimos eos quam</p>
+                    <h2>Spesifikasi Produk</h2>
+                    <p>Laboraturium Penguji ( LP - 1409 - IDN )</p>
                 </div>
 
                 <div class="row d-flex justify-content-center mt-0 pt-0">
@@ -375,26 +374,23 @@
                         <div class="row">
                             <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center"
                                 data-aos="fade-up" data-aos-delay="100">
-                                <h3>Voluptatem dignissimos provident</h3>
+                                <h3>Aspal Murni Buton Sulawesi Tenggara</h3>
                                 <p class="fst-italic">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore
-                                    magna aliqua.
+                                    Dalam memperoleh material aspal yang berkualitas, PT. Kartika Prima Abadi
+                                    bekerjasama dengan:
                                 </p>
                                 <ul>
-                                    <li><i class="bi bi-check2-all"></i> Ullamco laboris nisi ut aliquip ex ea commodo
-                                        consequat.</li>
-                                    <li><i class="bi bi-check2-all"></i> Duis aute irure dolor in reprehenderit in
-                                        voluptate velit.</li>
-                                    <li><i class="bi bi-check2-all"></i> Ullamco laboris nisi ut aliquip ex ea commodo
+                                    <li><i class="bi bi-check2-all"></i> PT. Karunia Alam Indonesia (KAI)</li>
+                                    <li><i class="bi bi-check2-all"></i> PT. Wijaya Karya (WIKA) </li>
+                                    {{-- <li><i class="bi bi-check2-all"></i> Ullamco laboris nisi ut aliquip ex ea commodo
                                         consequat. Duis aute irure dolor in reprehenderit in voluptate trideta
-                                        storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
+                                        storacalaperda mastiro dolore eu fugiat nulla pariatur.</li> --}}
                                 </ul>
                             </div>
                             <div class="col-lg-6 order-1 order-lg-2 text-center" data-aos="fade-up"
                                 data-aos-delay="200">
-                                <img src="{{ asset('assets/themes/assets') }}/img/features-1.jpg" alt=""
-                                    class="img-fluid">
+                                <img src="{{ asset('assets/bahan') }}/PT.%20Kartika%20Prima%20Abadi/tara.jpg"
+                                    alt="" class="img-fluid">
                             </div>
                         </div>
                     </div><!-- End tab content item -->
@@ -403,7 +399,7 @@
                         <div class="row">
                             <div
                                 class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
-                                <h3>Neque exercitationem debitis</h3>
+                                <h3>Stockpile sebagai tempat penyimpanan material aspal</h3>
                                 <p class="fst-italic">
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                     incididunt ut labore et dolore
@@ -422,8 +418,8 @@
                                 </ul>
                             </div>
                             <div class="col-lg-6 order-1 order-lg-2 text-center">
-                                <img src="{{ asset('assets/themes/assets') }}/img/features-2.jpg" alt=""
-                                    class="img-fluid">
+                                <img src="{{ asset('assets/bahan') }}/PT.%20Kartika%20Prima%20Abadi/DJI_0327.jpg"
+                                    alt="" class="img-fluid">
                             </div>
                         </div>
                     </div><!-- End tab content item -->
@@ -448,8 +444,8 @@
                                 </p>
                             </div>
                             <div class="col-lg-6 order-1 order-lg-2 text-center">
-                                <img src="{{ asset('assets/themes/assets') }}/img/features-3.jpg" alt=""
-                                    class="img-fluid">
+                                <img src="{{ asset('assets/bahan') }}/PT.%20Kartika%20Prima%20Abadi/DSC00365.jpg"
+                                    alt="" class="img-fluid">
                             </div>
                         </div>
                     </div><!-- End tab content item -->
@@ -475,8 +471,9 @@
                                 </ul>
                             </div>
                             <div class="col-lg-6 order-1 order-lg-2 text-center">
-                                <img src="{{ asset('assets/themes/assets') }}/img/features-4.jpg" alt=""
-                                    class="img-fluid">
+                                <<img src="{{ asset('assets/bahan') }}/PT.%20Kartika%20Prima%20Abadi/C9828T01.jpg"
+                                    alt="" class="img-fluid">
+
                             </div>
                         </div>
                     </div><!-- End tab content item -->
@@ -591,7 +588,7 @@
                             <div class="post-img position-relative overflow-hidden">
                                 <img src="{{ asset('assets/themes/assets') }}/img/blog/blog-1.jpg" class="img-fluid"
                                     alt="">
-                                <span class="post-date">December 12</span>
+                                <span class="post-date">December 23</span>
                             </div>
 
                             <div class="post-content d-flex flex-column">
@@ -600,7 +597,7 @@
 
                                 <div class="meta d-flex align-items-center">
                                     <div class="d-flex align-items-center">
-                                        <i class="bi bi-person"></i> <span class="ps-2">Julia Parker</span>
+                                        <i class="bi bi-person"></i> <span class="ps-2">Wahyu Wardhana</span>
                                     </div>
                                     <span class="px-3 text-black-50">/</span>
                                     <div class="d-flex align-items-center">
@@ -633,7 +630,7 @@
 
                                 <div class="meta d-flex align-items-center">
                                     <div class="d-flex align-items-center">
-                                        <i class="bi bi-person"></i> <span class="ps-2">Mario Douglas</span>
+                                        <i class="bi bi-person"></i> <span class="ps-2">Fathur Walkers</span>
                                     </div>
                                     <span class="px-3 text-black-50">/</span>
                                     <div class="d-flex align-items-center">
@@ -666,7 +663,7 @@
 
                                 <div class="meta d-flex align-items-center">
                                     <div class="d-flex align-items-center">
-                                        <i class="bi bi-person"></i> <span class="ps-2">Lisa Hunter</span>
+                                        <i class="bi bi-person"></i> <span class="ps-2">Andri William </span>
                                     </div>
                                     <span class="px-3 text-black-50">/</span>
                                     <div class="d-flex align-items-center">
@@ -694,7 +691,7 @@
         <section id="contact" class="contact">
             <div class="section-header mt-4">
                 <h2>Kontak Kami</h2>
-                <p>In commodi voluptatem excepturi quaerat nihil error autem voluptate ut et officia consequuntu</p>
+                {{-- <p>In commodi voluptatem excepturi quaerat nihil error autem voluptate ut et officia consequuntu</p> --}}
             </div>
             <div class="container" data-aos="fade-up" data-aos-delay="100">
 
